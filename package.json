@@ -1,0 +1,46 @@
+{
+  "name": "restaurent_erp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "axios": "^0.26.1",
+    "barcode": "^0.1.0",
+    "barcode-generator": "^0.1.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.19.1",
+    "bunyan": "^1.8.15",
+    "canvas": "^2.11.2",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "gm": "^1.23.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.1.5",
+    "node-cron": "^3.0.1",
+    "node-zklib": "^1.3.0",
+    "nodemon": "^2.0.15",
+    "qrcode": "^1.5.0",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeyettechno/restaurantBackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leeyettechno/restaurantBackend/issues"
+  },
+  "homepage": "https://github.com/leeyettechno/restaurantBackend#readme",
+  "description": ""
+}

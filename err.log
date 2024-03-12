@@ -1,0 +1,34 @@
+D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\db.js:314
+            throw new error_1.MongoAPIError(`database names cannot contain the character '${invalidChars[i]}'`);
+            ^
+
+MongoAPIError: database names cannot contain the character ' '
+    at validateDatabaseName (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\db.js:314:19)
+    at new Db (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\db.js:86:9)
+    at MongoClient.db (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\mongo_client.js:174:20)
+    at _setClient (D:\restaurantBackend\node_modules\mongoose\lib\connection.js:827:58)
+    at D:\restaurantBackend\node_modules\mongoose\lib\connection.js:791:7
+    at D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:508:9
+    at D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\mongo_client.js:130:17
+    at connectCallback (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\operations\connect.js:38:9)
+    at D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\operations\connect.js:89:9
+    at Object.callback (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:245:17)
+
+Node.js v18.7.0
+D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\db.js:314
+            throw new error_1.MongoAPIError(`database names cannot contain the character '${invalidChars[i]}'`);
+            ^
+
+MongoAPIError: database names cannot contain the character ' '
+    at validateDatabaseName (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\db.js:314:19)
+    at new Db (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\db.js:86:9)
+    at MongoClient.db (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\mongo_client.js:174:20)
+    at _setClient (D:\restaurantBackend\node_modules\mongoose\lib\connection.js:827:58)
+    at D:\restaurantBackend\node_modules\mongoose\lib\connection.js:791:7
+    at D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:508:9
+    at D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\mongo_client.js:130:17
+    at connectCallback (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\operations\connect.js:38:9)
+    at D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\operations\connect.js:89:9
+    at Object.callback (D:\restaurantBackend\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:245:17)
+
+Node.js v18.7.0

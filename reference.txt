@@ -1,0 +1,40 @@
+URI=mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false
+PORT=3100
+DB_NAME=ERP_RESTAURENT_BETATESTDB
+TEST_DB_NAME=ERP_RESTAURENT_TESTDB
+DATA_DB=ERP_DATADB
+url=localhost:27017
+username=leeyet
+password=Pkpm%404750
+APIURL=http://localhost:5204/api/
+TOKEN_SECRET=thesecretkeyforencryptionoferp_restaurantispkpm4750
+LOCALSTORAGEBASE=/home/leeyet/ERP/ERP-assembled-14-07-2022/public/
+FILEURL=http://192.168.29.24:3100/
+SPLITURL="http://192.168.29.24:3100/"
+MONTH=["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
+DAY=['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+MONGO_URL=mongodb://leeyet:Pkpm%404750@localhost:27017/koopatest?authSource=admin
+TEXTLOCALTOKEN=NjE3OTdhMzY1NzUzNTM0MTc5NDk0YzM3NTQ2MTUxNTU
+TEXTLOCALHEADER=OOPACK
+RAZORPAYKEY=rzp_test_LbfmwapZpbd3hX
+RAZORPAYSECRET=40eJPGo45XfwuaE5n0pVm7CG
+TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWE3NjY1ZWJhZWFkYjYxNDEzNzMwMDUiLCJyb2xlIjoidXNlciIsImlhdCI6MTYzODUyNjAwOCwiZXhwIjoxNjcwMDYyMDA4fQ.sF5qRIeT5ODsmhmC8Bk6DyVgi5wJaTLfmJMgvXw5wDk
+MIN_PERCENT=5
+MAX_PERCENT=12
+ADMINURL=http://192.168.29.24:3004/
+
+IMAGE FOLDERS TO CREATED INSIDE PROJECT
+Admin
+CardDetails
+Category
+Employee
+EmployeeDocs
+FloorPlan
+FoodItems
+Leave
+Menu
+OfferImages
+Order
+ProductItem
+Subcategory
+Upi
